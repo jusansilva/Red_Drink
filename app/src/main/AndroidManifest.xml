@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meta-dados="http://schemas.android.com/apk/res-auto"
+    package="lamp_on.red_drink">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Optional for additional targeting -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/redicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.menu" />
+        <activity
+            android:name=".activitys.game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.meio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.um"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.dois"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+
+        <activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".splash.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".splash.splash_menornao" />
+        <activity android:name=".splash.splash_naodirija" />
+        <activity android:name=".activitys.proximo" />
+        <activity android:name=".activitys.menu_selectbebida" />
+        <activity android:name=".activitys.todos"></activity>
+    </application>
+
+</manifest>

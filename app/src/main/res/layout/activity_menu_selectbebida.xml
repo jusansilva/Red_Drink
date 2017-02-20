@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.menu_selectbebida">
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bebida1"
+        android:layout_marginLeft="40dp"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida5"
+        android:layout_alignTop="@+id/bebida4"
+        android:layout_centerHorizontal="true"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida6"
+        android:layout_alignTop="@+id/bebida5"
+        android:layout_alignStart="@+id/bebida3"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida7"
+        android:layout_below="@+id/bebida4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida8"
+        android:layout_below="@+id/bebida5"
+        android:layout_alignStart="@+id/bebida5"
+        android:layout_marginTop="30dp"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Game"
+        android:id="@+id/gogame"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida4"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/bebida1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida9"
+        android:layout_alignBottom="@+id/bebida8"
+        android:layout_alignTop="@+id/bebida8"
+        android:layout_alignLeft="@+id/bebida6"
+        android:layout_alignStart="@+id/bebida6"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/bebida3"
+        android:textOff="@string/app_name"
+        android:textOn="@string/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
